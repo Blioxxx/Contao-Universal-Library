@@ -1,0 +1,35 @@
+{
+  "name":"blioxxx/contao-universal-library",
+  "description":"Universal Library for Contao Open Source CMS",
+  "keywords":["bx", "blioxxx", "universal library"],
+  "type":"contao-module",
+  "license":"LGPL-3.0+",
+  "authors": [
+    {
+      "name": "Mirco Kibiger",
+      "email": "mkibiger@blioxxx.de",
+      "homepage": "http://www.blioxxx.de",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "mkibiger@blioxxx.de",
+    "issues": "https://github.com/Blioxxx/Contao-Universal-Library/issues",
+    "source": "https://github.com/Blioxxx/Contao-Universal-Library"
+  },
+  "require": {
+    "php": ">=5.3",
+    "contao/core": ">=3.4,<4"
+  },
+  "suggest": {
+  },
+  "conflict": {
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "": "system/modules/bx_universal"
+      }
+    }
+  }
+}
